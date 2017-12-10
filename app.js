@@ -1,4 +1,4 @@
-const {properties, logger, loggerServer} = require('@ayro/commons');
+const {properties} = require('@ayro/commons');
 const path = require('path');
 
 properties.setup(path.join(__dirname, 'config.properties'));
