@@ -9,8 +9,9 @@ RUN \
   apk --no-cache update && \
   apk add --update --no-cache udev ttf-freefont chromium && \
   npm install --production && \
+  npm install pm2 -g && \
   rm -rf /var/cache/apk/* /tmp/* && \
   touch config.properties
 COPY . .
 EXPOSE 4100
-CMD ["npm", "start"]
+CMD ["pm2-docker", "process.json", "--only", "Ayro Prerender"]
