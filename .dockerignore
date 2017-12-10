@@ -1,0 +1,4 @@
+node_modules
+tasks
+npm-debug.log
+config.properties
