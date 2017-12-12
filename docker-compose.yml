@@ -1,0 +1,9 @@
+version: "3.4"
+services:
+  ayro-prerender:
+    image: "ayro-prerender:latest"
+    container_name: "ayro-prerender"
+    hostname: "ayro-prerender"
+    network_mode: "host"
+    volumes:
+      - "./config.properties:/usr/src/ayro-prerender/config.properties"
