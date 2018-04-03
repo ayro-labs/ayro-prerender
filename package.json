@@ -22,7 +22,7 @@
     "eslint-plugin-import": "2.7.0"
   },
   "dependencies": {
-    "@ayro/commons": "0.0.16",
+    "@ayro/commons": "0.0.17",
     "prerender": "5.1.0"
   }
 }
