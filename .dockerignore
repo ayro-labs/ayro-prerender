@@ -2,3 +2,10 @@ node_modules
 tasks
 npm-debug.log
 config.properties
+docker-compose.yml
+Dockerfile
+.dockerignore
+.eslintignore
+.eslintrc
+.gitignore
+.git
