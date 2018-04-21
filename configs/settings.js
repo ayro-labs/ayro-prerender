@@ -1,3 +1,5 @@
+'use strict';
+
 const {properties} = require('@ayro/commons');
 
 exports.port = properties.get('app.port', 4100);
