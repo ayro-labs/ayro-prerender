@@ -1,5 +1,7 @@
 'use strict';
 
+require('newrelic');
+
 const {properties} = require('@ayro/commons');
 const path = require('path');
 
