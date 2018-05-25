@@ -11,7 +11,7 @@ RUN \
   npm install --production && \
   npm install pm2 -g && \
   rm -rf /var/cache/apk/* /tmp/* && \
-  touch config.properties
+  touch config.yml
 COPY . .
 EXPOSE 4100
 CMD ["pm2-docker", "process.json", "--only", "Ayro Prerender"]

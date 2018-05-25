@@ -1,3 +1,4 @@
+/config.yml
+/newrelic_agent.log
 /node_modules
 /npm-debug.log
-/config.properties
