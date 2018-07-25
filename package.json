@@ -18,10 +18,11 @@
   "devDependencies": {
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "12.1.0",
-    "eslint-plugin-import": "2.12.0"
+    "eslint-plugin-import": "2.12.0",
+    "release-n-publish": "0.0.6"
   },
   "dependencies": {
-    "@ayro/commons": "0.0.29",
+    "@ayro/commons": "0.0.30",
     "newrelic": "4.1.4",
     "prerender": "5.4.2"
   }
